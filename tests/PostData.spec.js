@@ -31,7 +31,7 @@ test("Generate a  ticket for Bus using Post Method", async ({ request }) => {
 })
 
 //Put Metod
-test.only("Update a booking for User using Id and Token", async ({ request }) => {
+test("Update a booking for User using Id and Token", async ({ request }) => {
     const response = await request.post('https://restful-booker.herokuapp.com/auth', {
         headers: {
             "Content-Type": "application/json"
